@@ -1,0 +1,39 @@
+body {
+  background-color: var(--background-color);
+}
+:root {
+  --background-color: #64748b;
+  --hero-color: #94a3b8;
+  --primary-color: #1e40af;
+}
+.hero {
+  font-weight: bolder;
+  background-color: var(--hero-color);
+  padding: 1rem 1rem;
+  display: inline-block;
+  border: 3px solid black;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.date-div {
+  display: inline;
+  padding: 1rem;
+}
+.item-div {
+  display: inline;
+  padding: 1rem;
+  padding-right: 20rem;
+  color: white;
+}
+.cost-div {
+  max-width: 25px;
+  text-align: right;
+  display: inline;
+  margin-left: auto;
+  margin-right: 0;
+  border: 1px solid white;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+
+  padding: 0.5rem 1.5rem;
+}
