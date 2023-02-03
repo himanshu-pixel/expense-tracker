@@ -1,0 +1,17 @@
+.date {
+  border: 2.5px solid whitesmoke;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+.date-months {
+  font-size: large;
+}
+.date-day {
+  font-size: larger;
+}
+.date-year {
+  padding-top: 0.5rem;
+  font-size: small;
+}
