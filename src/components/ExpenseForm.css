@@ -1,0 +1,33 @@
+.Expense-controls {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 10vh;
+}
+input {
+  border-radius: 0.5rem;
+  border-color: black;
+  background-color: #64748b;
+  margin-left: 1rem;
+}
+label {
+  font-weight: bolder;
+}
+.Expense-control {
+  padding: 2rem;
+}
+#submit-button {
+  border-color: white;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bolder;
+  background-color: #40005d;
+  cursor: pointer;
+}
