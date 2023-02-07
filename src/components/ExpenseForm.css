@@ -8,12 +8,16 @@
   margin-left: 2rem;
   margin-right: 2rem;
   height: 10vh;
+  max-width: 600px;
+  margin: auto;
 }
 input {
   border-radius: 0.5rem;
   border-color: black;
   background-color: #64748b;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
 }
 label {
   font-weight: bolder;
