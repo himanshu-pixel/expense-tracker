@@ -3,9 +3,6 @@ import ExpenceDate from "./ExpenseDate";
 import { useState } from "react";
 import Card from "./Card";
 function ExpenseItem(props) {
-  const months = props.date.toLocaleString("en-US", { month: "long" });
-  const day = props.date.toLocaleString("en-US", { day: "2-digit" });
-  const year = props.date.getFullYear();
   const [title, setTitle] = useState(props.item);
   const clickHandler = () => setTitle("Updated");
   return (
