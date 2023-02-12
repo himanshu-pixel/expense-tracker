@@ -13,6 +13,7 @@ function App() {
     { date: new Date(), item: "Milk", cost: 78 },
     { date: new Date(), item: "Bread", cost: 12 },
     { date: new Date(), item: "Egg", cost: 78 },
+    { date: new Date(), item: "chicken", cost: 78 },
   ];
 
   return (
