@@ -3,7 +3,6 @@ import ExpenceDate from "./ExpenseDate";
 import { useState } from "react";
 import Card from "./Card";
 function ExpenseItem(props) {
-  const clickHandler = () => setTitle("Updated");
   return (
     <div className="expense-item">
       <ExpenceDate date={props.date} />
