@@ -1,5 +1,6 @@
 import React from "react";
 import "./expenseFilter.css";
+
 function ExpensesFilter(props) {
   function dropDownHandler(event) {
     props.onChangeFilter(event.target.value);
