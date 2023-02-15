@@ -6,4 +6,6 @@
   display: flex;
   justify-content: space-around;
   height: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
